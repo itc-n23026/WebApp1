@@ -1,0 +1,6 @@
+const print = console.log
+const stream = require('fs')
+  .readFileSync('./data', 'utf8')
+  .trim()
+
+print()
